@@ -1,0 +1,15 @@
+This is the source code to BombSweeper, a homebrew NES game.
+
+It can be built with The XORcyst, a 6502 assembler/linker suite.
+
+If you're in a MAKE environment, simply type
+
+make
+
+to build bombswpr.nes.
+
+If not, do it manually:
+
+xasm bombswpr.asm
+xasm vectors.asm
+xlnk bombswpr.s
